@@ -1,0 +1,88 @@
+# Every file in here will be excluded from version control
+
+### export dir
+### I feel its best to ignore the export directory to cut down on our repo size and to prevent collisions. We'll find a better way to share builds than to check them in.
+export/
+out/
+build/
+# Don't need to save text coverage reports
+report/
+
+
+### SUBLIME ###
+# workspace files are user-specific
+*.sublime-workspace
+# I'm probably the only one using sublime so I won't keep the project settings.
+# *.sublime-project
+
+### WINDOWS ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+
+### OS X ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+### VIM ###
+#I like vim :3
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
