@@ -9,7 +9,7 @@
 		{
 			"follow_symlinks": true,
 			"name": "Flixel",
-			"path": "/usr/lib/haxe/lib/flixel/git/"
+			"path": "/usr/lib/haxe/lib/flixel/3,0,4/"
 		},
 		{
 			"follow_symlinks": true,
